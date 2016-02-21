@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to the #{title} page
+  ul
+  each val in files
+    li: a(href='/view?har='+val)= val

@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/perf-cascade-full.css')
+  body
+    block content
+      h1= title
+      section(class="main-content")
+        div(id="output")
+      script.
+        var data = !{harData}
+      script(src='scripts/perf-cascade.js')

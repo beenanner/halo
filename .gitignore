@@ -1,0 +1,7 @@
+#Folders
+public
+node_modules
+
+
+#Files
+npm-debug.log
