@@ -9,4 +9,4 @@ Running locally
 
 Running with Docker
 ===================
-- docker run -d -v ~/har/:/usr/src/app/har/ -p 3000:3000 --name halo beenanner/halo
+- docker run -d -v $(pwd):/app/har/ -p 3000:3000 --name halo beenanner/halo
