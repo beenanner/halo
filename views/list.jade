@@ -5,4 +5,4 @@ block content
   p Welcome to the #{title} page
   ul
   each val in files
-    li: a(href='/view?har='+val)= val
+    li: a(href='/view?har='+encodeURIComponent(val))= val
