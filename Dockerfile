@@ -1,6 +1,5 @@
 FROM node:argon
 
-
 RUN mkdir -p /opt/app
 WORKDIR /opt/app
 

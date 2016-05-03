@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "perf-cascade": "https://github.com/micmro/PerfCascade.git",
     "body-parser": "~1.15.0",
     "cookie-parser": "~1.4.1",
     "debug": "~2.2.0",
